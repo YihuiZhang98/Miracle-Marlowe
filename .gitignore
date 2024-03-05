@@ -1,0 +1,28 @@
+# 忽略编译生成的文件和文件夹
+node_modules/
+dist/
+build/
+out/
+
+# 忽略临时文件
+.DS_Store
+*.log
+*.tmp
+
+# 忽略编辑器/IDE生成的文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.cache
+
+# 忽略个人敏感信息
+.env
+
+# 忽略生成的静态文件（如果有）
+/static/
+/assets/
+
+# 忽略版本控制中不需要的文件
+Thumbs.db
